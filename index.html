@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <b><title>Mi página personal (HTML Básico)</title></b>
+</head>
+<body>
+    
+    <header>
+        <h1><i>¡Temas de HTML5 Básico! 👨‍💻</i></h1>
+        <p>Bienvenidos a mi página personal hecha solo con HTML básico aplicando los temas vistos en el curso.</p>
+    </header>
+
+    <!--------------------------------------------------->
+
+    <main>
+        <section>
+            <h2><u><i>Temas vistos en HTML Básico:</u></i></h2>
+            <ol>
+                <li>Estructura de una etiqueta</li>
+                <li>Estructura de una página web</li>
+                <li>Párrafos y encabezados</li>
+                <li>Listas</li>
+                <li>Enlaces (básico)</li>
+                <li>Imágenes</li>
+                <li>Rutas</li>
+                <li>Formularios.</li>
+            </ol>
+        </section>
+
+        <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+        <!--------------------------------------------------->
+
+        <section>
+            <h2>1. Estructura de una etiqueta:</h2>
+
+            <li>Cada <b>etiqueta</b> HTML comienza con un símbolo de menor que "<" y termina con un símbolo de mayor que ">", preceden y siguen al contenido del elemento.</li>
+            <br><br>
+            <li>Los <b>elementos</b> HTML son el contenido de la página intercalado entre las etiquetas. Por ejemplo, el elemento <b>"p"</b> incluiría tanto la etiqueta de apertura "< >" como el contenido del párrafo, así como la etiqueta de cierre "< / >".</li>
+            <br><br>
+            <li>Los atributos se agregan a las etiquetas HTML utilizando la sintaxis de "nombre de atributo=valor". Por ejemplo, la etiqueta <b>"img"</b> puede incluir un atributo src que especifique la ubicación de la imagen en la página.</li>
+
+            <!--------------------------------------------------->
+
+            <h2>2. Estructura de una pagina web:</h2>
+
+            <p>Se basa en etiquetas que definen la organización del contenido. La estructura fundamental incluye la etiqueta <b>head</b> para información descriptiva y el <b>head</b>. Dentro del <b>body</b> se coloca el contenido visible, incluyendo elementos como encabezados, párrafos, imágenes y enlaces.</p>
+
+            <h3>- <u>Componentes clave:</u></h3>
+
+            <p><b>title: </b>Define el título de la página, que aparece en la pestaña del navegador.</p> 
+            
+            <b>meta charset="UTF-8": </b>Especifica la codificación de caracteres, en este caso UTF-8, que permite mostrar una amplia variedad de caracteres.
+            
+            <p><b>h1: </b>Encabezado de nivel 1, el más importante.</p>
+            
+            <p><b>p: </b>Define un párrafo de texto.</p>
+            
+            <p><b>img: </b>Inserta una imagen.</p>
+            
+            <p><b>a: </b>Crea un enlace hipertexto.</p>
+            
+            <p><b>!DOCTYPE html: </b>Indica al navegador que el documento está escrito en HTML5.</p>
+
+            <h3>- <u>Etiquetas semánticas:</u></h3>
+
+            <p><b>header: </b>Contiene el encabezado de la página, como el logo, el menú de navegación, etc.</p>
+            
+            <p><b>nav: </b>Contiene la navegación principal del sitio.</p>
+            
+            <p><b>main: </b>Contiene el contenido principal de la página.</p>
+            
+            <p><b>article: </b>Representa un artículo o sección independiente dentro de la página.</p>
+            
+            <p><b>section: </b>Agrupa contenido relacionado.</p>
+            
+            <p><b>aside: </b>Contiene información complementaria o secundaria.</p>
+            
+            <p><b>footer: </b>Contiene la información del pie de página, como derechos de autor, información de contacto, etc.</p>
+
+            <!--------------------------------------------------->
+
+            <h2>3. Párrafos y encabezados:</h2>
+
+            <p><b>Párrafo: </b>Esta etiqueta <b>"p"</b> permite estructurar el texto en bloques separados, mejorando la legibilidad y la organización de una página web.</p>
+
+            <h3>- <u>Ejemplo de un párrafo:</u></h3>
+
+            <p>Mi nombre es Cristian Cruz. Soy un estudiante de ingeniería de sistemas con conocimientos básicos de programación y con la mentalidad de aprender mucho más de este mundo de la tecnología, quiero comenzar por el camino del desarrollo web y después avanzando por otras ramas, para así fortalecer mis conocimientos y aplicarlos en la vida cotidiana.
+            </p>
+
+            <p><b>Encabezado: </b>Son etiquetas que se utilizan para definir títulos y subtítulos, y ayudan a los motores de búsqueda y a los usuarios a comprender mejor la estructura del contenido.</p>
+
+            <h3>- <u>Tipos de encabezado (h1 a h6):</u></h3>
+            <b>h1: </b><h1>El título principal de la página, debe usarse solo una vez.</h1>
+            <b>h2: </b><h2>Título de secciones o subtítulos principales.</h2>
+            <b>h3: </b><h3>Título de subsecciones o subtítulos de segundo nivel.</h3>
+            <b>h4: </b><h4>Título de subsubsecciones o subtítulos de tercer nivel.</h4>
+            <b>h5: </b><h5>Título de subsubsubsecciones o subtítulos de cuarto nivel.</h5>
+            <b>h6: </b><h6>Título de subsubsubsubsecciones o subtítulos de quinto nivel.</h6>
+
+            <!--------------------------------------------------->
+
+            <h2>4. Listas:</h2>
+
+            <p><b>Las listas se crean utilizando tres tipos principales de etiquetas:</b> listas desordenadas <b>(ul)</b>, listas ordenadas <b>(ol)</b> y listas de definición <b>(dl)</b>. Las listas desordenadas usan viñetas, mientras que las ordenadas se numeran. Las listas de definición se utilizan para presentar términos y sus definiciones.</p>
+
+            <h3>- <u>Ejemplo de cada tipo de lista:</u></h3>
+
+            <h4><b>Lista desordenada (ul):</b></h4>
+            <ul>
+                <li>Cine</li>
+                <li>Evento</li>
+                <li>Estudio</li>
+            </ul>
+
+            <h4><b>Lista ordenada (ol):</b></h4>
+            <ol>
+                <li>Levantarse</li>
+                <li>Bañarse</li>
+                <li>Arreglarse</li>
+                <li>Disfrutar un nuevo día</li>
+            </ol>
+
+            <h4><b>Lista de definición (dl):</b></h4>
+            <dl>
+                <dt><b>HTML:</b></dt>
+                <dd>Lenguaje de marcas estándar para crear páginas web.</dd>
+                <br>
+                <dt><b>CSS:</b></dt>
+                <dd>Lenguaje utilizado para dar estilo a las páginas web.</dd>
+                <br>
+                <dt><b>JAVASCRIPT:</b></dt>
+                <dd>Es un lenguaje de programación de script o programación de secuencias de comandos que permite implementar funcionalidades complejas en páginas web.</dd>
+            </dl>
+
+            <!--------------------------------------------------->
+
+            <h2>5. Enlaces (básico):</h2>
+
+            <p><b>Enlaces: </b>También conocidos como hipervínculos, se crean utilizando la etiqueta <b>"a"</b>, que significa "ancla". Esta etiqueta requiere el atributo <b>"href"</b> para especificar la dirección URL a la que enlaza. Con el atributo <b>target="_blank"</b> ayuda que el enlace se inicie en una nueva ventana.</p>
+
+            <h3>- <u>Ejemplo básico de un enlace:</u></h3>
+
+            <a href="https://www.google.com/" target="_blank">Este es un enlace que te llevará a Google!</a>
+
+            <!--------------------------------------------------->
+
+            <h2>6. Imágenes</h2>
+
+            <p><b>Imágen: </b>Técnicamente, las imágenes no se insertan en una página web; se enlazan a páginas web. La etiqueta <b>img</b> crea un espacio de almacenamiento para la imagen referenciada.
+                <br>
+            La etiqueta mencionada está vacía, contiene solo atributos y no tiene etiqueta de cierre, estos son los dos atributos obligatorios:</p>
+            
+            <p><b>src: </b>Especifica la ruta a la imágen.</p>
+            
+            <p><b>alt: </b>Especifica un texto alternativo para la imágen.</p>
+
+            <h3>- <u>Ejemplo de una imágen:</u></h3>
+            
+            <img src="../imagenes/developer.png" alt="Developer" width="100px">
+
+            <!--------------------------------------------------->
+            
+            <h2>7. Rutas</h2>
+
+            <b>Ruta: </b>Especifica la ubicación de un recurso (como una imagen, hoja de estilo, o script) dentro de la estructura de archivos de un sitio web.
+
+            <h3>- <u>Tipos de Rutas:</u></h3>
+
+            <h4>Rutas Absolutas:</h4>
+            <p>Indican la ubicación completa del recurso, incluyendo el protocolo (http:// o https://), el nombre de dominio y la ruta completa del archivo. Por ejemplo:</p>
+            <b>- https://www.ejemplo.com/imagenes/logo.png</b>
+
+            <h4>Rutas Relativas:</h4>
+            <p>Indican la ubicación del recurso en relación con la ubicación actual del archivo HTML. Se utilizan para referenciar archivos dentro del mismo sitio web. Utilizan los símbolos <b>"."</b> (directorio actual) y <b>".."</b> (directorio padre) para navegar por la estructura de archivos. Ejemplos:</p>
+            <ul>
+                <li><b>imagenes/logo.png:</b> La imagen está en una carpeta llamada "imagenes" dentro del mismo directorio que el archivo HTML.</li>
+                <br>
+                <li><b>../imagenes/logo.png:</b> La imagen está en una carpeta llamada "imagenes" en el directorio padre del archivo HTML.</li>
+            </ul>
+
+            <!--------------------------------------------------->
+
+            <h2>8. Formularios</h2>
+
+            <p><b>Formulario: </b>son áreas delimitadas por la etiqueta <b>form</b> que permiten a los usuarios interactuar con un sitio web para ingresar datos, como nombres, direcciones de correo electrónico, etc. 
+                <br>
+                Estos formularios, que suelen contener campos de entrada de texto, botones, casillas de verificación y otros controles, permiten que los usuarios proporcionen información a un sitio web, que luego se envía al servidor para su procesamiento.</p>
+            
+            <h3>- <u>Campos de formularios:</u></h3>
+
+            <h4><b><u>Campos de entrada de datos:</u></b></h4>
+
+            <p>Son los elementos básicos de un formulario ya que son los que nos permiten recuperar información del usuario de diferentes formas.</p>
+
+            <p><b>La estructura básica de un campo de entrada es la siguiente:</b> < input type="tipo" id "identificador" size="tamaño" name="nombre" value="texto por defecto" /></p>
+
+            <p><b>type: </b>Indica el tipo de campo de entrada de datos que vamos a utilizar. Dependiendo del tipo que indiquemos obtendremos un resultado u otro. Los valores que puede tener el atributo type son: “text”, “password”, “checkbox”, “radio”, “submit”, “reset”, “file”, “hidden”, “image” y “button”.</p>
+            <p><b>id: </b>Es el identificador del campo. Es importante ya que será el nombre por el cual podremos identificar, de forma unívoca, al campo.</p>
+            <p><b>size: </b>Será el tamaño del campo. Es decir, el número de caracteres que podríamos insertar en el campo de texto.</p>
+            <p><b>name: </b>Es el nombre del campo el cual se enviará desde el formulario al servidor.</p>
+            <p><b>value: </b>Será el valor por defecto que tendrá el campo de texto y que le aparecerá al usuario al cargar el formulario.</p>
+            <p>Cuando enviemos el formulario al servidor, se coge el la combinación name=value para ser enviada.</p>
+
+            <h4><b><u>Campos de texto:</u></b></h4>
+
+            <p>Un campo de texto se crea utilizando la etiqueta <b>"input"</b> con el atributo <b>type="text"</b>. Este tipo de campo permite al usuario ingresar texto en una línea. Por ejemplo:</p>
+
+            <input type="text"  id="email" name="email" size="70" value="usuario@dominio.com" />
+
+            <h4><b><u>Contraseñas: </u></b></h4>
+
+            <p>El campo <b>< input type="password" ></b> define un campo de contraseña (los caracteres se ocultan).
+            <br>
+            <b>Nota:</b> Cualquier formulario que contenga información confidencial, como contraseñas, debe servirse mediante HTTPS.</p>
+
+            <input type="password" id="clave" name="clave" size="20" />
+
+            <h4><b><u>Checkbox: </u></b></h4>
+
+            <p>Es un elemento de entrada que permite al usuario seleccionar una o más opciones de un conjunto. Se representa con la etiqueta <b>< input type="checkbox" ></b> y aparece como un pequeño cuadro que se marca o desmarca al hacer clic sobre él.</p>
+
+            <input type="checkbox" name="lenguaje" value="html">HTML
+            <input type="checkbox" name="lenguaje" value="javascript">Javascript
+            <input type="checkbox" name="lenguaje" value="css">CSS
+            <input type="checkbox" name="lenguaje" value="xml">XML
+
+            <h4><b><u>Radios: </u></b></h4>
+
+            <p>Un elemento <b>< input type="radio" ></b> define un botón de opción, que permite al usuario seleccionar una única opción de un conjunto de opciones mutuamente excluyentes.
+                <br>
+                En el caso de los elementos radio toma un papel principal el atributo <b>"name"</b>. Ya que para poder agrupar opciones deberemos de tener el mismo valor de atributo name.
+            </p>
+
+            <input type="radio" id="menos18" value="menos18" name="edad"/>Menos de 18 años
+            <input type="radio" id="18a30" value="18a30" name="edad"/>18 a 30 años
+            <input type="radio" id="31a50" value="31a50" name="edad"/>31 a 50 años
+            <input type="radio" id="mas50" value="mas50" name="edad"/>Más de 50 años
+
+            <h4><b><u>Ficheros: </u></b></h4>
+
+            <p>Cuando diseñemos un formulario es posible que necesitemos enviar un fichero de datos al servidor. En este caso el campo de entrada de datos nos tiene que dar la posibilidad de acceder al sistema de fichero del dispositivo para poder seleccionar uno.
+                <br>
+                En este caso necesitamos <b>< input type="file" ></b>.
+            </p>
+
+            <input type="file" id="identificador" value="valor" name="nombre" />
+
+            <h4><b><u>Campos ocultos: </u></b></h4>
+
+            <p>Es un atributo booleano <b>< input type="hidden" ></b> que indica que un elemento no es visible ni relevante para el usuario, aunque sigue existiendo en el código fuente. Se usa para ocultar elementos hasta que una condición específica se cumpla, o para ocultar elementos que no son necesarios en la interfaz actual.
+                <br>
+                En estos casos el campo valor siempre va relleno, ya que no hay otra forma de que el usuario le asigne un valor.
+            </p>
+
+            <input type="hidden" id="identificador" value="valor" name="nombre"/>
+
+            <h4><b><u>Imágenes: </u></b></h4>
+
+            <p>Mediante el <b>< input type="image" ></b> podemos crear un botón de envío que sea una imágen. La imágen se cargará mediante el atributo src.</p>
+
+            <input type="image" src="../imagenes/html.png" name="nombre" alt="logo-html5" width="100px"/>
+
+            <p>Como sucede cada vez que manipulamos imágenes hay que rellenar el atributo <b>"alt"</b> con un texto alternativo por motivos de accesibilidad.</p>
+
+            <h4><b><u>Áreas de texto: </u></b></h4>
+
+            <p>Es un elemento que permite a los usuarios ingresar texto de varias líneas en un formulario web.
+                <br>
+                Para poder insertar un área de texto en nuestro formulario utilizamos el <b>< textarea >.</b>
+            </p>
+
+            <p>- <u>Atributos que se encuentran en un textarea:</u></p>
+
+            <p><b>rows: </b>Indica el número de filas que tiene el área de texto.</p>
+
+            <p><b>cols: </b>Indica el número de columnas que tiene el área de texto.</p>
+
+            <p><b>name: </b>Al igual que sucede con otros elementos del formulario, name contiene el nombre del campo, el cual será enviado al servidor para ser procesado.</p>
+
+            <p>- <b>La sintaxis del elemento textarea será la siguiente:</b></p>
+
+            <p>< textarea rows="numerofilas" (Ej: 5) cols="numerocolumnas" (Ej: 100) name="nombre" > Contenido de comentario... < /textarea >. Así queda:</p>
+
+            <textarea rows="5" cols="100" name="comentario">Contenido de comentario...</textarea>
+
+            <h4><b><u>Combos de opciones: </u></b></h4>
+            
+            <p>Hay un elemento <b>< select ></b> en el que el usuario pueda elegir un elemento o varios de una lista. Su sintaxis es:</p>
+
+            <p>< select name="nombre" size="valoresvisibles" multiple > < /select ></p>
+
+            <p>- <u>Valores en el elemento select:</u></p>
+
+            <p><b>name: </b>Que al igual que en anteriores casos sirve para dar un nombre al campo que se enviará al servidor.</p>
+
+            <p><b>size: </b>Indica el número de opciones que aparecen visibles por defecto. En el caso de que haya más opciones que las elegidas por defecto lo que nos aparecerá será un scroll para poder localizar todas.</p>
+
+            <p><b>multiple: </b>Este atributo nos servirá para poder elegir varias de las opciones. Es decir, para tener una elección múltiple.</p>
+
+            <p>Como hemos visto el elemento select sólo demarca el combo de las opciones. Para definir cada una de las opciones tenemos el elemento <b>< option >< /option >:</b></p>
+
+            <p>< option label="etiqueta" value="valor" >< /option ></p>
+
+            <p><b>label: </b>Indica el texto que aparecerá para poder ser seleccionado en el combo.</p>
+
+            <p><b>value: </b>El valor real de ese item.</p>
+
+            <p>En el caso de que no pongamos el atributo label o el atributo value, el valor que cogerán dichos atributos será el texto que encontremos entre los elementos de option.</p>
+
+            <p>- <u>Sintaxis del elemento select y option juntos:</u></p>
+
+            <p>< select name="nombre" size="valoresvisibles" multiple ><br>
+                < option label="etiqueta" value="valor" >< /option ><br>
+            < /select ></p>
+
+            <p><u>Ejemplo:</u></p>
+
+            <select>
+                <option>Inter Milán</option>
+                <option>Ajax</option>
+                <option>Manchester City</option>
+                <option>Barcelona</option>
+                <option>Bayern Munchen</option>
+            </select>
+
+            <p>Otra de las cosas que podemos realizar dentro de un combo es agrupar opciones. Si la lista de opciones es muy grande, entonces podemos utilizar el <b>< optgroup label="etiqueta" >< /optgroup ></b></p>
+
+            <p>Dentro del elemento <b>"optgroup"</b> encontraremos todos los elementos option que queramos agrupar.</p>
+
+            <p><u>Ejemplo:</u></p>
+
+            <select name="Ciudades">
+                <optgroup label="Colombia">
+                    <option>Cali</option>
+                    <option>Bogotá</option>
+                    <option>Barranquilla</option>
+                </optgroup>
+                <optgroup label="Chile">
+                    <option>Antofagasta</option>
+                    <option>Coquimbo</option>
+                    <option>Iquique</option>
+                </optgroup>
+                <optgroup label="Argentina">
+                    <option>Buenos Aires</option>
+                    <option>Rosario</option>
+                    <option>La Plata</option>
+                </optgroup>
+            </select>
+
+            <h4><b><u>Botones: </u></b></h4>
+
+            <p>Es un elemento interactivo en una página web que permite al usuario realizar una acción o interactuar con la interfaz. Se define mediante la etiqueta <b>< button >.</b></p>
+
+            <p>< input type="button" value="TextoBotón" /></p>
+
+            <input type="button" value="Click" />
+
+            <p>- <u>Elementos input tipo "submit" y "reset":</u></p>
+
+            <p>Para crear un botón que nos envíe los datos del formulario al servidor tenemos el tipo <b>"submit".</b></p>
+
+            <input type="submit" value="Submit" />
+
+            <p>Una vez que pulsemos sobre el botón se enviarán los datos que el usuario haya insertado en el formulario.</p>
+
+            <p>El otro tipo de botón con funcionalidad es el que nos permite el borrado de los datos del formulario. Para ello tenemos el tipo <b>“reset”</b>. </p>
+
+            <input type="reset" value="Reset" />
+
+            <p>Cuando el usuario pulse sobre el botón de borrado. Todos los valores que el usuario haya insertado en el formulario se eliminarán.</p>
+        </section>
+
+        <!--------------------------------------------------->
+
+        <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+        <section>
+            <p><b>Estos son todos los temas de HTML básico con su definición y ejemplos, en una página realizada solo con HTML. Esto es solo el comienzo de un mundo lleno de aprendizaje, vamos más allá y seguir conociendo este increíble mundo. Gracias por leer!!</b></p>
+        </section>
+
+        <h2><b><u>My Social Network</u></b> <img src='https://raw.githubusercontent.com/ShahriarShafin/ShahriarShafin/main/Assets/handshake.gif' width="100px"></h2>
+
+        <br>
+
+        <a href="https://www.linkedin.com/in/cristian-camilo-cruz-gallego/" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="40" height="40"/>
+        </a>
+
+        <a href="https://github.com/CristianCruz0309" target="_blank">
+            <img src="../imagenes/25231.png" alt="GitHub" width="40" height="40"/>
+        </a>
+    
+    </main>
+    <br>
+    <footer>
+        <p>© 2025 Cristian Cruz</p>
+    </footer>
+
+</body>
+</html>
