@@ -1,5 +1,7 @@
 ## 📌 Target
 
+![HTML5 Badge](https://img.shields.io/badge/Code-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+
 This project was created as part of my learning in the Basic HTML course, ideal for practicing the structure of a web page, it is worth mentioning that it does not have CSS styles since it is only applying the topics seen in Basic HTML.
 
 ## 🧠 Lessons learned
@@ -38,3 +40,4 @@ Credits: [Cristian Cruz](https://github.com/CristianCruz0309)
 <br>
 
 > _"Curiosity is my favorite programming language."_ 💻🦅
+
